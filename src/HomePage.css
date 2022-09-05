@@ -1,0 +1,41 @@
+.logos {
+  border-radius: 5px;
+}
+
+/*#customers tr:nth-child(even){background-color: grey;}*/
+
+#customers td:hover {box-shadow: 0 0 0 3px black;}/*{border: 3px solid black;}*/
+
+#customers td {
+  line-height: 0%;
+  border-radius: 5px;
+}
+
+#customers th {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+
+
+.confTable th {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.confTable {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.button {
+  font-size: 0%;
+  border: none;
+  background-color: lightgrey;
+}
+
+#Footer {
+  text-align: center;
+  padding-top: 50px;
+}
