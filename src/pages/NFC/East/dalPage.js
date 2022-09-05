@@ -1,21 +1,8 @@
-import React, { useState, useEffect } from 'react';
-
-
 function homeButton() {
   window.location.replace("/");
 }
 
 const DalPage = () => {
-
-  useEffect(() => {
-    const response = fetch("/dal");
-
-    const data = response.json();
-
-    console.log(data);
-
-  });
-
 
   return (
     <>
